@@ -3,23 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3828EFCC2724F6AA005C416A /* cg.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 3828EFCA2724F6AA005C416A /* cg.mtl */; };
+		3828EFCD2724F6AA005C416A /* cg.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3828EFCB2724F6AA005C416A /* cg.obj */; };
+		38A18EAF272450890090A319 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A18EAE272450890090A319 /* SettingsView.swift */; };
 		38C071C32723ABC30020DE27 /* ConsciousGlassesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C071C22723ABC30020DE27 /* ConsciousGlassesApp.swift */; };
 		38C071C52723ABC30020DE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C071C42723ABC30020DE27 /* ContentView.swift */; };
 		38C071C72723ABC30020DE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C071C62723ABC30020DE27 /* Assets.xcassets */; };
 		38C071CA2723ABC30020DE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C071C92723ABC30020DE27 /* Preview Assets.xcassets */; };
+		38C071D32723BCCC0020DE27 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 38C071D22723BCCC0020DE27 /* SwiftUIX */; };
+		38C071D52723CA940020DE27 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C071D42723CA940020DE27 /* LoginView.swift */; };
+		38C071D72723CC7D0020DE27 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C071D62723CC7D0020DE27 /* SignUpView.swift */; };
+		38C18FF32723D3F200A4335A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18FF22723D3F200A4335A /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3828EFCA2724F6AA005C416A /* cg.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cg.mtl; sourceTree = "<group>"; };
+		3828EFCB2724F6AA005C416A /* cg.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cg.obj; sourceTree = "<group>"; };
+		38A18EAE272450890090A319 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		38C071BF2723ABC30020DE27 /* ConsciousGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsciousGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C071C22723ABC30020DE27 /* ConsciousGlassesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsciousGlassesApp.swift; sourceTree = "<group>"; };
 		38C071C42723ABC30020DE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38C071C62723ABC30020DE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C071C92723ABC30020DE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38C071CB2723ABC30020DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C071D42723CA940020DE27 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		38C071D62723CC7D0020DE27 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		38C18FF22723D3F200A4335A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C071D32723BCCC0020DE27 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +68,13 @@
 			children = (
 				38C071C22723ABC30020DE27 /* ConsciousGlassesApp.swift */,
 				38C071C42723ABC30020DE27 /* ContentView.swift */,
+				38C071D42723CA940020DE27 /* LoginView.swift */,
+				38C071D62723CC7D0020DE27 /* SignUpView.swift */,
+				38C18FF22723D3F200A4335A /* HomeView.swift */,
+				38A18EAE272450890090A319 /* SettingsView.swift */,
 				38C071C62723ABC30020DE27 /* Assets.xcassets */,
+				3828EFCA2724F6AA005C416A /* cg.mtl */,
+				3828EFCB2724F6AA005C416A /* cg.obj */,
 				38C071CB2723ABC30020DE27 /* Info.plist */,
 				38C071C82723ABC30020DE27 /* Preview Content */,
 			);
@@ -85,6 +105,9 @@
 			dependencies = (
 			);
 			name = ConsciousGlasses;
+			packageProductDependencies = (
+				38C071D22723BCCC0020DE27 /* SwiftUIX */,
+			);
 			productName = ConsciousGlasses;
 			productReference = 38C071BF2723ABC30020DE27 /* ConsciousGlasses.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +135,9 @@
 				Base,
 			);
 			mainGroup = 38C071B62723ABC20020DE27;
+			packageReferences = (
+				38C071D12723BCCC0020DE27 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 38C071C02723ABC30020DE27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C071CA2723ABC30020DE27 /* Preview Assets.xcassets in Resources */,
+				3828EFCD2724F6AA005C416A /* cg.obj in Resources */,
+				3828EFCC2724F6AA005C416A /* cg.mtl in Resources */,
 				38C071C72723ABC30020DE27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C071D72723CC7D0020DE27 /* SignUpView.swift in Sources */,
 				38C071C52723ABC30020DE27 /* ContentView.swift in Sources */,
 				38C071C32723ABC30020DE27 /* ConsciousGlassesApp.swift in Sources */,
+				38A18EAF272450890090A319 /* SettingsView.swift in Sources */,
+				38C18FF32723D3F200A4335A /* HomeView.swift in Sources */,
+				38C071D52723CA940020DE27 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaryaman.ConsciousGlasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaryaman.ConsciousGlasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38C071D12723BCCC0020DE27 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38C071D22723BCCC0020DE27 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C071D12723BCCC0020DE27 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38C071B72723ABC20020DE27 /* Project object */;
 }
